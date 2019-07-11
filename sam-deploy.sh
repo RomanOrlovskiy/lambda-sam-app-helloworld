@@ -5,15 +5,15 @@ if ! which sam ; then
   exit 1
 fi
 
-if ! [ -n "$1" ] ; then
-    echo "Pass the directory with lambda application to be deployed as the first parameter"
-    exit 5
-fi
+#if ! [ -n "$1" ] ; then
+#    echo "Pass the directory with lambda application to be deployed as the first parameter"
+#    exit 5
+#fi
+#
+#cd $1
 
 s3_bucket='rorlovskyi-lambda-sam-hello-world'
-stack_name=$1
-
-cd $1
+stack_name="sam-app"
 
 set -x
 
