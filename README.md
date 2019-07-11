@@ -1,3 +1,16 @@
+# Description
+This is a copy of AWS SAM example application from this guide https://docs.aws.amazon.com/en_us/serverless-application-model/latest/developerguide/serverless-quick-start.html
+
+Use sam-deploy.sh to automate deployment of Lambda functions locally. 
+Change s3_bucket variable in the script before that. Usage: sam-deploy.sh {directory_name}. 
+
+Examples:
+
+sam-deploy.sh .
+sam-deploy.sh sam-app
+
+Below is the default documentation from the test app.
+
 # sam-app
 
 This is a sample template for sam-app - Below is a brief explanation of what we have generated for you:
