@@ -7,6 +7,7 @@ Change s3_bucket variable in the script before that. Usage: sam-deploy.sh {direc
 Examples:
 
 sam-deploy.sh .
+
 sam-deploy.sh sam-app
 
 Below is the default documentation from the test app.
